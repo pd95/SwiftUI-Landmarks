@@ -30,6 +30,8 @@
 		17EB6C1A2372CFA400038456 /* stmarylake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17EB6C0D2372CFA400038456 /* stmarylake.jpg */; };
 		17EB6C1B2372CFA400038456 /* chilkoottrail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17EB6C0E2372CFA400038456 /* chilkoottrail.jpg */; };
 		17EB6C1C2372CFA400038456 /* rainbowlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17EB6C0F2372CFA400038456 /* rainbowlake.jpg */; };
+		17EB6C1E2372D3DE00038456 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EB6C1D2372D3DE00038456 /* LandmarkRow.swift */; };
+		17EB6C232372D4FA00038456 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EB6C222372D4FA00038456 /* LandmarkList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +60,8 @@
 		17EB6C0D2372CFA400038456 /* stmarylake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stmarylake.jpg; sourceTree = "<group>"; };
 		17EB6C0E2372CFA400038456 /* chilkoottrail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chilkoottrail.jpg; sourceTree = "<group>"; };
 		17EB6C0F2372CFA400038456 /* rainbowlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rainbowlake.jpg; sourceTree = "<group>"; };
+		17EB6C1D2372D3DE00038456 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
+		17EB6C222372D4FA00038456 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,7 @@
 				17EB6BE22372C7EA00038456 /* AppDelegate.swift */,
 				17EB6BE42372C7EA00038456 /* SceneDelegate.swift */,
 				17EB6BE62372C7EA00038456 /* LandmarkDetail.swift */,
+				17EB6C222372D4FA00038456 /* LandmarkList.swift */,
 				17EB6C012372CF9200038456 /* Supporting Views */,
 				17EB6C022372CFA400038456 /* Resources */,
 				17EB6BE82372C7ED00038456 /* Assets.xcassets */,
@@ -126,6 +131,7 @@
 			children = (
 				17EB6BF62372CA6300038456 /* CircleImage.swift */,
 				17EB6BF82372CB2400038456 /* MapView.swift */,
+				17EB6C1D2372D3DE00038456 /* LandmarkRow.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -238,8 +244,10 @@
 				17EB6BE32372C7EA00038456 /* AppDelegate.swift in Sources */,
 				17EB6BFF2372CF4B00038456 /* Data.swift in Sources */,
 				17EB6BF72372CA6300038456 /* CircleImage.swift in Sources */,
+				17EB6C232372D4FA00038456 /* LandmarkList.swift in Sources */,
 				17EB6BF92372CB2400038456 /* MapView.swift in Sources */,
 				17EB6BE52372C7EA00038456 /* SceneDelegate.swift in Sources */,
+				17EB6C1E2372D3DE00038456 /* LandmarkRow.swift in Sources */,
 				17EB6BE72372C7EA00038456 /* LandmarkDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
