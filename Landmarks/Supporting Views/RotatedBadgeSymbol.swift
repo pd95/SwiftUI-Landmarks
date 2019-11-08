@@ -20,6 +20,6 @@ struct RotatedBadgeSymbol: View {
 
 struct RotatedBadgeSymbol_Previews: PreviewProvider {
     static var previews: some View {
-        RotatedBadgeSymbol(angle: .init(degrees: 5))
+        RotatedBadgeSymbol(angle: Angle(degrees: 5))
     }
 }
