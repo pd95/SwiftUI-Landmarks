@@ -157,7 +157,9 @@
 		17280B5F2375C23E00165FE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17280B602375C23E00165FE7 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		17280B862375C33800165FE7 /* WatchLandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchLandmarkDetail.swift; sourceTree = "<group>"; };
-		17280B882375C38A00165FE7 /* WatchMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WatchMapView.swift; path = ../WatchMapView.swift; sourceTree = "<group>"; };
+		17280B882375C38A00165FE7 /* WatchMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchMapView.swift; sourceTree = "<group>"; };
+		174E04C22376DFFE00079901 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		174E04C32376DFFE00079901 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		17EB6BDF2372C7EA00038456 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17EB6BE22372C7EA00038456 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17EB6BE42372C7EA00038456 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -249,12 +251,12 @@
 				17280B542375C23D00165FE7 /* ExtensionDelegate.swift */,
 				17280B562375C23D00165FE7 /* NotificationController.swift */,
 				17280B582375C23D00165FE7 /* NotificationView.swift */,
+				17280B862375C33800165FE7 /* WatchLandmarkDetail.swift */,
+				17280B882375C38A00165FE7 /* WatchMapView.swift */,
 				17280B5A2375C23E00165FE7 /* Assets.xcassets */,
 				17280B5F2375C23E00165FE7 /* Info.plist */,
 				17280B602375C23E00165FE7 /* PushNotificationPayload.apns */,
 				17280B5C2375C23E00165FE7 /* Preview Content */,
-				17280B862375C33800165FE7 /* WatchLandmarkDetail.swift */,
-				17280B882375C38A00165FE7 /* WatchMapView.swift */,
 			);
 			path = "WatchLandmarks Extension";
 			sourceTree = "<group>";
@@ -267,9 +269,19 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		174E04C12376DFFE00079901 /* LICENSE */ = {
+			isa = PBXGroup;
+			children = (
+				174E04C22376DFFE00079901 /* LICENSE.txt */,
+			);
+			path = LICENSE;
+			sourceTree = "<group>";
+		};
 		17EB6BD62372C7EA00038456 = {
 			isa = PBXGroup;
 			children = (
+				174E04C32376DFFE00079901 /* README.md */,
+				174E04C12376DFFE00079901 /* LICENSE */,
 				17EB6BE12372C7EA00038456 /* Landmarks */,
 				17280B402375C23C00165FE7 /* WatchLandmarks */,
 				17280B4F2375C23D00165FE7 /* WatchLandmarks Extension */,

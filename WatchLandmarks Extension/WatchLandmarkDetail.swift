@@ -1,10 +1,9 @@
-//
-//  WatchLandmarkDetail.swift
-//  WatchLandmarks Extension
-//
-//  Created by Philipp on 08.11.19.
-//  Copyright © 2019 Philipp. All rights reserved.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+A watch-specific view showing the details for a landmark.
+*/
 
 import SwiftUI
 

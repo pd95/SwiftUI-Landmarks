@@ -16,7 +16,7 @@
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
             <objects>
-                <notificationController id="YCC-NB-fut" customClass="NotificationController" customModule="WatchLandmarks_Extension">
+                <notificationController id="YCC-NB-fut">
                     <items>
                         <label alignment="left" text="Alert Label" numberOfLines="0" id="IdU-wH-bcW"/>
                     </items>

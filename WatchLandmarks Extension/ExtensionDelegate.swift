@@ -1,10 +1,9 @@
-//
-//  ExtensionDelegate.swift
-//  WatchLandmarks Extension
-//
-//  Created by Philipp on 08.11.19.
-//  Copyright © 2019 Philipp. All rights reserved.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+The watchOS app's extension delegate.
+*/
 
 import WatchKit
 
@@ -13,7 +12,7 @@ class ExtensionDelegate: NSObject, WKExtensionDelegate {
     func applicationDidFinishLaunching() {
         // Perform any final initialization of your application.
     }
-
+    
     func applicationDidBecomeActive() {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
     }
@@ -52,5 +51,4 @@ class ExtensionDelegate: NSObject, WKExtensionDelegate {
             }
         }
     }
-
 }

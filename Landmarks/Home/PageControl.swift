@@ -1,10 +1,9 @@
-//
-//  PageControl.swift
-//  Landmarks
-//
-//  Created by Philipp on 07.11.19.
-//  Copyright © 2019 Philipp. All rights reserved.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+A view wrapping a UIPageControl.
+*/
 
 import SwiftUI
 

@@ -1,10 +1,9 @@
-//
-//  LandmarkDetail.swift
-//  Landmarks
-//
-//  Created by Philipp on 06.11.19.
-//  Copyright © 2019 Philipp. All rights reserved.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+A view showing the details for a landmark.
+*/
 
 import SwiftUI
 
@@ -15,7 +14,7 @@ struct LandmarkDetail: View {
     var landmarkIndex: Int {
         userData.landmarks.firstIndex(where: { $0.id == landmark.id })!
     }
-    
+
     var body: some View {
         VStack {
             MapView(coordinate: landmark.locationCoordinate)
@@ -35,8 +34,7 @@ struct LandmarkDetail: View {
                         self.userData.landmarks[self.landmarkIndex]
                             .isFavorite.toggle()
                     }) {
-                        if self.userData.landmarks[self.landmarkIndex]
-                            .isFavorite {
+                        if self.userData.landmarks[self.landmarkIndex].isFavorite {
                             Image(systemName: "star.fill")
                                 .foregroundColor(Color.yellow)
                         } else {

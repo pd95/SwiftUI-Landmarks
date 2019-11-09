@@ -1,10 +1,9 @@
-//
-//  SceneDelegate.swift
-//  Landmarks
-//
-//  Created by Philipp on 06.11.19.
-//  Copyright © 2019 Philipp. All rights reserved.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+The scene delegate.
+*/
 
 import UIKit
 import SwiftUI

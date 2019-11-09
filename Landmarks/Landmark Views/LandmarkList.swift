@@ -1,10 +1,9 @@
-//
-//  LandmarkList.swift
-//  Landmarks
-//
-//  Created by Philipp on 06.11.19.
-//  Copyright © 2019 Philipp. All rights reserved.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+A view showing a list of landmarks.
+*/
 
 import SwiftUI
 
@@ -12,7 +11,7 @@ struct LandmarkList<DetailView: View>: View {
     @EnvironmentObject private var userData: UserData
     
     let detailViewProducer: (Landmark) -> DetailView
-
+    
     var body: some View {
         List {
             Toggle(isOn: $userData.showFavoritesOnly) {
@@ -32,7 +31,6 @@ struct LandmarkList<DetailView: View>: View {
         .navigationBarTitle(Text("Landmarks"))
     }
 }
-
 
 #if os(watchOS)
 typealias PreviewDetailView = WatchLandmarkDetail

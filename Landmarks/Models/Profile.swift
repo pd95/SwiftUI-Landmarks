@@ -2,7 +2,7 @@
 See LICENSE folder for this sample’s licensing information.
 
 Abstract:
-A model object that stores user profile data.
+An object that models a user profile.
 */
 import Foundation
 

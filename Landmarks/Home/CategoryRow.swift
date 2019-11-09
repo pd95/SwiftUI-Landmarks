@@ -1,10 +1,9 @@
-//
-//  CategoryRow.swift
-//  Landmarks
-//
-//  Created by Philipp on 06.11.19.
-//  Copyright © 2019 Philipp. All rights reserved.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+A view showing a scrollable list of landmarks.
+*/
 
 import SwiftUI
 

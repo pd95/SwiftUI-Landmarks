@@ -1,10 +1,9 @@
-//
-//  HostingController.swift
-//  WatchLandmarks Extension
-//
-//  Created by Philipp on 08.11.19.
-//  Copyright © 2019 Philipp. All rights reserved.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+A hosting controller for the watchOS app's root view.
+*/
 
 import WatchKit
 import Foundation
