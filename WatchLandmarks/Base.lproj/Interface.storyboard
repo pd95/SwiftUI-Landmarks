@@ -23,7 +23,7 @@
                     <notificationCategory key="notificationCategory" identifier="LandmarkNear" id="JfB-70-Muf"/>
                     <connections>
                         <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
-                        <segue destination="CUP-I3-Cgw" kind="relationship" relationship="dynamicInteractiveNotificationInterface" id="J6D-6C-QBb"/>
+                        <segue destination="CUP-I3-Cgw" kind="relationship" relationship="dynamicNotificationInterface" id="J6D-6C-QBb"/>
                     </connections>
                 </notificationController>
             </objects>

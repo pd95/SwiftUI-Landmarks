@@ -43,6 +43,7 @@ class NotificationController: WKUserNotificationHostingController<NotificationVi
         super.didDeactivate()
     }
     
+    /// ---- Bug in watchOS? didReceive is never called!
     override func didReceive(_ notification: UNNotification) {
         os_log("NotificationController: didReceive called (notification=%{PUBLIC}@)", log: OSLog.notification, type: .info, notification)
         let userData = UserData()
@@ -64,7 +65,31 @@ class NotificationController: WKUserNotificationHostingController<NotificationVi
         }
     }
 
-    override func didReceive(_ notification: UNNotification, withCompletion completionHandler: @escaping (WKUserNotificationInterfaceType) -> Void) {
-        os_log("NotificationController: didReceive called (notification=%{PUBLIC}@)", log: OSLog.notification, type: .info, notification)
-    }
+    /// ---- This variation of didReceive (marked as deprecated) is getting called!?
+    /// But nevertheless the UI is not shown
+//    override func didReceive(_ notification: UNNotification, withCompletion completionHandler: @escaping (WKUserNotificationInterfaceType) -> Void) {
+//        os_log("NotificationController: didReceive withCompletion called (notification=%{PUBLIC}@)", log: OSLog.notification, type: .info, notification)
+//        let userData = UserData()
+//
+//        let notificationData =
+//            notification.request.content.userInfo as? [String: Any]
+//
+//        let aps = notificationData?["aps"] as? [String: Any]
+//        let alert = aps?["alert"] as? [String: Any]
+//
+//        title = alert?["title"] as? String
+//        message = alert?["body"] as? String
+//
+//        if let index = notificationData?[landmarkIndexKey] as? Int {
+//            landmark = userData.landmarks[index]
+//        }
+//
+//        print("title: \(title)")
+//        print("message: \(message)")
+//        print("landmark: \(landmark)")
+//
+//        didReceive(notification)
+//        completionHandler(.custom)
+//
+//    }
 }
