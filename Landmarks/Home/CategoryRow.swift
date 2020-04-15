@@ -28,6 +28,7 @@ struct CategoryRow: View {
                         ) {
                             CategoryItem(landmark: landmark)
                         }
+                        .buttonStyle(PlainButtonStyle())
                     }
                 }
             }

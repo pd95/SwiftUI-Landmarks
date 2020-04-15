@@ -47,7 +47,7 @@ final class ImageStore {
     func image(name: String) -> Image {
         let index = _guaranteeImage(name: name)
         
-        return Image(images.values[index], scale: CGFloat(ImageStore.scale), label: Text(verbatim: name))
+        return Image(images.values[index], scale: CGFloat(ImageStore.scale), label: Text(name))
     }
 
     static func loadImage(name: String) -> CGImage {
