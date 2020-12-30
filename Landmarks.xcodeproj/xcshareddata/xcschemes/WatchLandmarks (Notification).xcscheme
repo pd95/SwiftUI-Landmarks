@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1120"
+   LastUpgradeVersion = "1230"
    version = "2.0">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -56,10 +56,8 @@
       allowLocationSimulation = "YES"
       launchAutomaticallySubstyle = "16"
       notificationPayloadFile = "WatchLandmarks Extension/PushNotificationPayload.apns">
-      <RemoteRunnable
-         runnableDebuggingMode = "2"
-         BundleIdentifier = "com.apple.Carousel"
-         RemotePath = "/Landmarks">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "17280B3E2375C23C00165FE7"
@@ -67,7 +65,7 @@
             BlueprintName = "WatchLandmarks"
             ReferencedContainer = "container:Landmarks.xcodeproj">
          </BuildableReference>
-      </RemoteRunnable>
+      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -75,10 +73,8 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <RemoteRunnable
-         runnableDebuggingMode = "2"
-         BundleIdentifier = "com.apple.Carousel"
-         RemotePath = "/Landmarks">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "17280B3E2375C23C00165FE7"
@@ -86,16 +82,7 @@
             BlueprintName = "WatchLandmarks"
             ReferencedContainer = "container:Landmarks.xcodeproj">
          </BuildableReference>
-      </RemoteRunnable>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "17280B3E2375C23C00165FE7"
-            BuildableName = "WatchLandmarks.app"
-            BlueprintName = "WatchLandmarks"
-            ReferencedContainer = "container:Landmarks.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

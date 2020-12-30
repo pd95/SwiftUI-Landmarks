@@ -14,7 +14,7 @@ struct LandmarkList<DetailView: View>: View {
     
     var body: some View {
         List {
-            Toggle(isOn: $userData.showFavoritesOnly) {
+            Toggle(isOn: $userData.showFavoritesOnly.animation()) {
                 Text("Show Favorites Only")
             }
             

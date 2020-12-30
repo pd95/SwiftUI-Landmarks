@@ -46,7 +46,9 @@ struct ProfileEditor: View {
                     "Goal Date",
                     selection: $profile.goalDate,
                     in: dateRange,
-                    displayedComponents: .date)
+                    displayedComponents: .date
+                )
+                .datePickerStyle(WheelDatePickerStyle())
             }
             .padding(.top)
         }
